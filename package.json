@@ -1,0 +1,23 @@
+{
+  "name": "express-resource-limit",
+  "version": "1.0.0",
+  "description": "custom resource limiter middleware",
+  "main": "lib/express-resource-limit.js",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/mocha/bin/mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scr1p7ed/express-resource-limit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scr1p7ed/express-resource-limit/issues"
+  },
+  "homepage": "https://github.com/scr1p7ed/express-resource-limit#readme",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "supertest": "^6.0.1"
+  }
+}
